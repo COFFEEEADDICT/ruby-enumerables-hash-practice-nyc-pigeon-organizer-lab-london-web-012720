@@ -8,8 +8,8 @@ pigeon_list = {}
       end
     end
   end
-
-  x = pigeon_list.keys
+# sets up the new hash, with new keys
+  x = pigeon_list.keys # grabs names
 
     data[:color].each do |color, name|
       name.each do |b_name|
