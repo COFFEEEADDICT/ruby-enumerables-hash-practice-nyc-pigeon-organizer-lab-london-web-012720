@@ -42,5 +42,7 @@ pigeon_list = {}
         end
       end
     end
+    # inserts location into lives key
+
 return pigeon_list
 end
