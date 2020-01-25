@@ -9,7 +9,7 @@ pigeon_list = {}
     end
   end
 # sets up the new hash, with new keys
-  x = pigeon_list.keys # grabs names
+  x = pigeon_list.keys # make a list names
 
     data[:color].each do |color, name|
       name.each do |b_name|
