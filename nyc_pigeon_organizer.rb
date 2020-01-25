@@ -20,7 +20,7 @@ pigeon_list = {}
         end
       end
     end
-
+# inserts color into color key
     data[:gender].each do |type, name|
       name.each do |b_name|
         x.each do |i|
@@ -31,6 +31,7 @@ pigeon_list = {}
         end
       end
     end
+    # inserts gender into gender key
 
   data[:lives].each do |location, name|
       name.each do |b_name|
